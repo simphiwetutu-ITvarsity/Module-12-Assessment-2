@@ -1,0 +1,194 @@
+body {
+    background-image: url(../images/background_20_hD8OPbD.wide.jpeg);
+    /* overflow: hidden; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* latin-ext */
+
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v23/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BAyo3ROp8ltA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+label {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 1500px;
+    float: left;
+}
+
+#navbar {
+    color: rgb(4, 0, 253);
+    font-family: 'Dancing Script';
+    font-size: 35px;
+    text-align: center;
+}
+
+label:after {
+    content: ": "
+}
+
+#refresh {
+    margin-left: 25%;
+    padding: 5px;
+    background-color: rgb(175, 240, 240);
+    border-radius: 10rem;
+    width: 40%;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#addContact {
+    margin-left: 25%;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(175, 240, 240);
+    border-radius: 10rem;
+    width: 40%;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#refresh:hover {
+    background-color: rgb(179, 179, 179);
+    border: white solid 3px;
+    color: rgb(24, 8, 245);
+}
+
+#addContact:hover {
+    background-color: rgb(179, 179, 179);
+    border: white solid 3px;
+    color: rgb(24, 8, 245);
+}
+
+#index-body {
+    text-align: left;
+    text-transform: capitalize;
+}
+
+#table-index {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 100%;
+    align-content: center;
+    table-layout: inherit;
+}
+
+td {
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2cb;
+}
+
+#navbar {
+    text-align: center;
+}
+
+#editContact {
+    width: 50%;
+    margin-left: 10px;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 10px 15px;
+    margin: 5px 50;
+    box-sizing: border-box;
+    background-color: rgb(187, 187, 187);
+    border: 2px solid rgb(38, 0, 255);
+    border-radius: 15px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=submit],
+[id=submitForm],
+[id=homeLink],
+[type=file],
+[id=editContact],
+[id=deleteContact] {
+    background-color: rgb(175, 240, 240);
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 30px;
+    cursor: pointer;
+    border-radius: 10rem;
+}
+
+.split {
+    display: flex;
+}
+
+#submitForm:hover {
+    background-color: rgb(240, 243, 243);
+    border: black solid 3px;
+    color: rgb(24, 8, 245);
+}
+
+#homeLink {
+    padding: 5px;
+    background-color: rgb(175, 240, 240);
+    border-radius: 10rem;
+    width: 40%;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#editContact {
+    margin-left: 30px;
+    padding: 5px;
+    background-color: rgb(175, 240, 240);
+    border-radius: 10rem;
+    width: 40%;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#deleteContact {
+    padding: 5px;
+    background-color: rgb(175, 240, 240);
+    border-radius: 10rem;
+    width: 40%;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#homeLink:hover {
+    background-color: rgb(240, 243, 243);
+    border: black solid 3px;
+    color: rgb(24, 8, 245);
+}
+
+#editContact:hover {
+    background-color: rgb(240, 243, 243);
+    border: black solid 3px;
+    color: rgb(24, 8, 245);
+}
+
+#deleteContact:hover {
+    background-color: rgb(240, 243, 243);
+    border: black solid 3px;
+    color: rgb(24, 8, 245);
+}
